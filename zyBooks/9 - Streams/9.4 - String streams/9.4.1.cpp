@@ -18,7 +18,11 @@ int main() {
    int userDate = 0;
    int userYear = 0;
 
-   /* Your solution goes here  */
+   //Inserted code
+   inSS >> userMonth;
+   inSS >> userDate;
+   inSS >> userYear;
+  //inserted code ends
 
    cout << "Month: " << userMonth << endl
         << "Date: " << userDate << endl
