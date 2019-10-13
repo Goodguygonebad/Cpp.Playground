@@ -19,6 +19,7 @@ int main() {
    while (userItem != "Exit") {
 
       /* Your solution goes here  */
+      itemsOSS << userItem << " ";
 
       cin >> userItem;
    }
